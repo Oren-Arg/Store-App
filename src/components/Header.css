@@ -1,0 +1,8 @@
+.header{
+    position:sticky;
+    top:0px;
+    z-index: 3;
+    text-align:center;
+    width:100%;
+    background-color: #0077b6;
+}
