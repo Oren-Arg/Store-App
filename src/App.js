@@ -9,11 +9,7 @@ function App() {
   return (
     <main>
       <Header></Header>
-      <SideBar
-        def={items}
-        products={products}
-        changeProducts={setProducts}
-      ></SideBar>
+      <SideBar def={items} changeProducts={setProducts}></SideBar>
       <Catalog ditems={products} />
     </main>
   );
